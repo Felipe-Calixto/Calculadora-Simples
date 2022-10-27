@@ -1,7 +1,5 @@
 let number = document.querySelector("#number-result");
 
-//while(number.length < 10) {
-
 function insert(num) {
     let numero = document.querySelector("#number-result").textContent;
     console.log(numero);
@@ -21,4 +19,3 @@ function calcular() {
     document.querySelector("#number-result").innerHTML = eval(result);
 }
 
-//}
